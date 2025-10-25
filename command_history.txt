@@ -1,0 +1,38 @@
+/reload
+/kubejs reload
+/kubejs reload server-scripts
+/reload
+/questnpc interact <00001>
+/questnpc interact 00001
+/reload
+/questnpcinteract 00001
+/questnpclink 00001 12345
+/give @s kubejs:money 128
+/questnpcinteract 00001 12345
+/relod
+/reload
+/give @s kubejs:money 128
+/give @s kubejs:claim_wand 1
+/reload
+/clear
+/give @s kubejs:claim_wand 1
+/give @s kubejs:money 128
+/reload
+/claimwanddebug on
+/reload
+/claimwanddebug on
+/reload
+/claimwanddebug on
+/reload
+/give @s kubejs:money 128
+/reload
+/give @s kubejs:money 128
+/reload
+/give @s kubejs:money 128
+/reload
+/claimwandreset
+/give @s kubejs:money 128
+/reload
+/give @s kubejs:claim_wand 1
+/reload
+/give @s kubejs:money 128

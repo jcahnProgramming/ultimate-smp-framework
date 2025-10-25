@@ -1,0 +1,28 @@
+# Minecraft server / modpack ignores
+logs/
+run/
+world/
+crash-reports/
+*.log
+*.tmp
+*.bak
+*.zip
+*.jar
+*.old
+*.dat
+*.lock
+
+# Local config and cache
+config/
+local/
+serverconfig/
+usercache.json
+whitelist.json
+banned-players.json
+banned-ips.json
+
+# IDE/editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "d74d8472b36f4048b5e02f947f0cd896"
+	name: "PathPlays#d74d8472"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}
