@@ -68,9 +68,9 @@ Before opening a pull request please:
 1. Launch a test world or server with the required mods.
 2. Verify there are no console errors during world load and /kubejs reload.
 3. Exercise core commands:
-- /claimwanddebug on
-- /claimwandreset
-- /cwwhere
+```/claimwanddebug on ```
+ ``` /claimwandreset ```
+``` /cwwhere ```
 4. Test in multiplayer with FTB Teams enabled when possible.
 
 ### Submitting Changes
@@ -79,8 +79,8 @@ Before opening a pull request please:
 2. Create a feature branch:
 - git checkout -b feature/my-feature-name
 3. Commit using clear, conventional messages:
-- git commit -m "feat: add npc shop integration"
-- git commit -m "fix: prevent chunk purchase exploit"
+``` git commit -m "feat: add npc shop integration" ```
+``` git commit -m "fix: prevent chunk purchase exploit" ```
 4. Push your branch and open a Pull Request to main.
 Please keep PRs focused and small; large unrelated changes are harder to review.
 
