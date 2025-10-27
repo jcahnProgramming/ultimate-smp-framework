@@ -5,7 +5,8 @@
 
 // ===== Config =====
 var CLAIM_WAND_ID = 'kubejs:claim_wand';
-var PRICE_PER_CHUNK = 55;
+// Use central config if present; fallback to 55
+var PRICE_PER_CHUNK = (global && global.getClaimPrice) ? global.getClaimPrice() : 55;
 var CONFIRM_WINDOW_MS = 20000;
 var CLICK_COOLDOWN_MS = 500;
 var POST_CONFIRM_LOCK_MS = 800;
